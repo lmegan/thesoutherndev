@@ -1,1 +1,56 @@
-// Specific CSS for your home-page
+.aboutme {
+  height: calc(100vh - 30px);
+  overflow: hidden;
+  background-image: url(aboutme.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+// .aboutme_image {
+//   // height: calc(100vh - 30px);
+//   width: 100%;
+// }
+
+// .rightside_image {
+//   width: 100px;
+// }
+#homepage_topleft {
+  background-image: url(portfolio.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: calc(50vh - 15px);
+}
+#homepage_btmleft {
+  background-image: url(travel.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: calc(50vh - 15px);
+}
+#homepage_topright {
+  background-image: url(recipes.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  height: calc(50vh - 15px);
+}
+#homepage_btmright {
+  background-image: url(contactme.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: calc(50vh - 15px);
+}
+
+.container {
+  margin-left: 0px;
+  margin-right: 0px !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  // overflow: hidden;
+  height: 100vh;
+  background-color: #606F7E;
+}
+
+
