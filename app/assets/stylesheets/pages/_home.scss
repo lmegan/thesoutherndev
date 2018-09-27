@@ -16,6 +16,50 @@
   background-position: center;
   margin: 20px 5px;
 }
+.aboutme:hover {
+  transition: all 0.5s;
+  background-image: linear-gradient(-225deg, rgb(94, 111, 127) 0%, rgba(0,36,61,0.6) 60%),url(aboutme.jpeg);
+  p {
+    opacity: 1;
+  }
+}
+
+// .aboutme p {
+//   opacity: 0;
+//   transition: all 0.5s;
+//   color: #fdd2d4;
+//   font-size: 25px;
+//   text-align: center;
+//   position: relative;
+//   top: 30%;
+// }
+
+h2 {
+  text-align: center;
+  position: relative;
+  top: 75%;
+  font-size: 50px;
+  color: #fdd2d4;
+}
+h1 {
+  font-size: 30px;
+  color: #fdd2d4;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+}
+.homepage_sm {
+  font-size: 30px;
+  color: #fdd2d4;
+  // margin-top: 15px;
+  margin-left: 15px;
+  a {
+    color: #fdd2d4;
+  }
+  a:hover {
+    opacity: .5;
+  }
+}
 
 #homepage_topleft {
   background-image: url(portfolio.jpg);
@@ -26,25 +70,51 @@
   height: calc(50vh - 30px);
   margin-top: 20px;
   margin-right: 5px;
+  justify-content: center;
   @media (max-width: 991px) {
     margin-top: 0px;
     height: 100vh;
     margin-left: 5px;
   }
 }
+#homepage_topleft:hover {
+  transition: all 0.5s;
+  background-image: linear-gradient(-225deg, rgb(94, 111, 127) 0%, rgba(0,36,61,0.6) 60%),url(portfolio.jpeg);
+}
+// #homepage_topleft p {
+//   opacity: 0;
+//   transition: all 0.5s;
+//   color: #fdd2d4;
+//   font-size: 25px;
+//   text-align: center;
+//   position: relative;
+//   top: 30%;
+// }
+// #homepage_topleft:hover {
+//   transition: all 0.5s;
+//   background-image: linear-gradient(-225deg, rgb(94, 111, 127) 0%, rgba(0,36,61,0.6) 60%),url(portfolio.jpeg);
+//   p {
+//     opacity: 1;
+//   }
+// }
 
 #homepage_btmleft {
-  background-image: url(travel.jpeg);
+  background-image: url(bali.jpeg);
   background-size: cover;
   background-position: center;
   display: flex;
   height: calc(50vh - 30px);
   margin-top: 20px;
   margin-right: 5px;
+  justify-content: center;
   @media (max-width: 991px) {
     height: 100vh;
     margin-left: 5px;
   }
+}
+#homepage_btmleft:hover {
+  transition: all 0.5s;
+  background-image: linear-gradient(-225deg, rgb(94, 111, 127) 0%, rgba(0,36,61,0.6) 60%),url(bali.jpeg);
 }
 
 #homepage_topright {
@@ -55,10 +125,15 @@
   height: calc(50vh - 30px);
   margin-top: 20px;
   margin-right: 5px;
+  justify-content: center;
   @media (max-width: 991px) {
     height: 100vh;
     margin-left: 5px;
   }
+}
+#homepage_topright:hover {
+  transition: all 0.5s;
+  background-image: linear-gradient(-225deg, rgb(94, 111, 127) 0%, rgba(0,36,61,0.6) 60%),url(recipes.jpeg);
 }
 
 #homepage_btmright {
@@ -69,11 +144,16 @@
   height: calc(50vh - 30px);
   margin-top: 20px;
   margin-right: 5px;
+  justify-content: center;
   @media (max-width: 991px) {
     height: 100vh;
     margin-left: 5px;
     margin-bottom: 20px;
   }
+}
+#homepage_btmright:hover {
+  transition: all 0.5s;
+  background-image: linear-gradient(-225deg, rgb(94, 111, 127) 0%, rgba(0,36,61,0.6) 60%),url(contactme.jpeg);
 }
 
 
