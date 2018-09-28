@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar.active {
+  margin-top: 70px;
+  min-width: 100%;
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: calc(100vh - 70px);
+  z-index: 999;
+  background-color: #77a56b;
+  color: black;
+  transition: all 0.3s;
+  margin-left: 0;
+}
+
+#sidebar {
+  margin-left: -250px;
+  height: 0px;
+  overflow: hidden;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 676px) {
+  #sidebar {
+      margin-left: -250px;
+  }
+  #sidebar.active {
+      margin-left: 0;
+  }
+}
+
+.aboutmelink {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  bottom: 80px;
+  left: 95px;
+}
+
+.list-unstyled {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: #ba0303;
+  }
+}
+.sidebar-header {
+  position: relative;
+  text-align: center;
+}
