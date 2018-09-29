@@ -1,4 +1,4 @@
-$(document).ready(function () {
+const sidebar = $(document).ready(function () {
 
     $('#sidebarCollapse').on('click', function () {
         // open or close navbar
@@ -13,3 +13,5 @@ $(document).ready(function () {
     });
 
 });
+
+export { sidebar }
