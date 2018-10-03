@@ -2,8 +2,8 @@
 
   <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(<%= asset_path 'homepage2.jpeg' %>);">
     <div class="banner-content">
-      <h1>Developer</h1>
-      <p>Coding my way around the globe with a little bit of southern charm</p>
+      <h1>Web Developer</h1>
+      <p>Hello, my name is Leanne. I specialize in front-end web development and SEO. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <%= mail_to "lmegan92@gmail.com", "HERE" %>. In the meantime, i'll be coding my way around the globe with a little bit of southern charm.</p>
     </div>
   </div>
 
@@ -159,8 +159,33 @@
       </div>
   </div>
   <div class="contact">
-    <p>Contact form, social media icons and insta integration</p>
-
+    <div class="start">
+      <div class="row">
+        <div class="col-lg-4 col-sm-4" id="contact-column">
+          <p class="start1">Start a project</p>
+        </div>
+        <div class="col-lg-4 col-sm-4" id="contact-column">
+          <p class="start2">Interested in working together? Let's have a chat.</p>
+        </div>
+        <div class="col-lg-4 col-sm-4" id="contact-column">
+          <div class="start3">
+            <p><%= mail_to "lmegan92@gmail.com", "Let's do this" %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contactme">
+      <h3>Contact</h3>
+      <div class="line"></div>
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin" id="last"></i></a>
+      </div>
+    <div class="footer-copyright">
+      Handcrafted with <i class="fa fa-heart"></i> by me © twentyeighteen
+    </div>
+    </div>
   </div>
 
 </div>
