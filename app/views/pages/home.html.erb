@@ -134,18 +134,33 @@
     <h3>Projects</h3>
     <div class="line"></div>
       <div class="row">
-        <div class="col-lg-6 col-sm-12" id="piccolumn">
-          <!-- <a href="www.thesoutherndev.com"><img src="assets/devphoto.jpeg"></a> -->
-          <p>You're looking at it! I built this application using HTML, CSS, Javascript, and Bootstrap. It took only a few days and was my first project since graduation from coding bootcamp.</p>
+        <div class="col-lg-6 col-sm-12">
+          <div class="piccolumn">
+            <%= image_tag 'devphoto.jpeg' %>
+            <div class="overlay">
+              <p class="text">You're looking at it! I built this application using HTML, CSS, Javascript, and Bootstrap. It took only a few days and was my first project since graduation from coding bootcamp.</p>
+              <a href="www.thesoutherndev.com">
+                <span>Visit Website</span>
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6 col-sm-12" id="piccolumn">
-          <%= image_tag 'onguardphoto.jpeg' %>
-          <p>This project was built during my last few weeks of Le Wagon's bootcamp. It is a Ruby on Rails project with HTML, CSS, Javascript, Google Maps API, Twillio integration, and Facebook Messenger Chatbot integration.</p>
+        <div class="col-lg-6 col-sm-12" id="space">
+          <div class="piccolumn">
+            <%= image_tag 'onguardphoto.jpeg' %>
+            <div class="overlay">
+              <p class="text">I built this project during my last few weeks of Le Wagon's bootcamp. It is a Ruby on Rails project with HTML, CSS, Javascript, Google Maps API, Twillio integration, and Facebook Messenger Chatbot integration.</p>
+              <a href="www.onguard.live">
+                <span>Visit Website</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
   </div>
   <div class="contact">
     <p>Contact form, social media icons and insta integration</p>
+
   </div>
 
 </div>
