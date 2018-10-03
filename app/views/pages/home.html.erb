@@ -14,15 +14,136 @@
   </div>
 
   <div class="experience">
-    <p>Education</p>
-    <p>Work</p>
-    <p>Certifications</p>
+    <h3>Experience</h3>
+    <div class="line"></div>
+    <!-- Card -->
+    <div class="card card-image">
+
+        <!-- Content -->
+        <div class="rgba-black-strong py-5 px-4">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 col-xl-12">
+
+                    <!--Accordion wrapper-->
+                    <div class="accordion md-accordion accordion-5" id="accordionEx5" role="tablist" aria-multiselectable="true">
+
+                        <!-- Accordion card -->
+                        <div class="card mb-4" id="exp-btn">
+
+                            <!-- Card header -->
+                            <div class="card-header p-0 z-depth-1" role="tab" id="heading30">
+                                <a data-toggle="collapse" data-parent="#accordionEx5" href="#collapse30" aria-expanded="false" aria-controls="collapse30">
+                                    <h4 class="text-uppercase white-text mb-0 py-3 mt-1">
+                                        Education
+                                    </h4>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapse30" class="collapse" role="tabpanel" aria-labelledby="heading30" data-parent="#accordionEx5">
+                                <div class="card-body rgba-black-light white-text z-depth-1">
+                                    <div class="education">
+                                      <p>LE WAGON CODING BOOTCAMP, BALI, INDONESIA 2018</p>
+                                      <p>Completed Le Wagons 9 week full-stack coding bootcamp rated 1st coding bootcamp in the world according to Course Report and SwitchUp.</p>
+                                    </div>
+                                    <div class="education">
+                                      <p>CCOLLEGE OF CHARLESTON, CHARLESTON, SC 2010 - 2014</p>
+                                      <p>B.S. Business Administration  B.S. Hospitality and Tourism Management </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card mb-4" id="exp-btn">
+
+                            <!-- Card header -->
+                            <div class="card-header p-0 z-depth-1" role="tab" id="heading31">
+                                <a data-toggle="collapse" data-parent="#accordionEx5" href="#collapse31" aria-expanded="true" aria-controls="collapse31">
+                                    <h4 class="text-uppercase white-text mb-0 py-3 mt-1">
+                                        Previous Work History
+                                    </h4>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapse31" class="collapse" role="tabpanel" aria-labelledby="heading31" data-parent="#accordionEx5">
+                                <div class="card-body rgba-black-light white-text z-depth-1">
+                                  <div class="education">
+                                    <p>BENEFITFOCUS, INC.  - Charleston, SC 29492</p>
+                                      <P>Team Lead: June '17 - June '18</P>
+                                      <P>Benefits Analyst: May '15 - Sept '16, Jan '17 - June '17</P>
+                                      <P>Corporate Trainer: Sept '16 - Dec '16</P>
+                                      <P>Benefits Administrator: June '14 - April '15</P>
+                                  </div>
+                                  <div class="education">
+                                    <P>CHARLESTON SEO FIRM - Charleston, SC 29403</P>
+                                    <P>Intern: Jan '14 - May '14</P>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card mb-4" id="exp-btn">
+
+                            <!-- Card header -->
+                            <div class="card-header p-0 z-depth-1" role="tab" id="heading32">
+                                <a data-toggle="collapse" data-parent="#accordionEx5" href="#collapse32" aria-expanded="true" aria-controls="collapse32">
+                                    <h4 class="text-uppercase white-text mb-0 py-3 mt-1">
+                                        Certifications and Techinical Skills
+                                    </h4>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapse32" class="collapse" role="tabpanel" aria-labelledby="heading32" data-parent="#accordionEx5">
+                                <div class="card-body rgba-black-light white-text z-depth-1">
+                                  <div class="education">
+                                    <p>TECHNICAL SKILLS:</p>
+                                    <p>Programming languages: Ruby, HTML, CSS, Javascript</p>
+                                    <p>Frameworks: Rails</p>
+                                    <p>Database Management: MySQL, PostgreSQL</p>
+                                    <p>Version Control: Git</p>
+                                  </div>
+                                  <div class="education">
+                                    <p>PROFESSIONAL DEVELOPMENT:</p>
+                                    <p>Google Analytics Certified</p>
+                                    <p>Google Ads Certified</p>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+                    </div>
+                    <!--/.Accordion wrapper-->
+
+                </div>
+            </div>
+        </div>
+        <!-- Content -->
+    </div>
+    <!-- Card -->
+    <p>Want a copy of my full resume/CV? Click <%= mail_to "lmegan92@gmail.com", "HERE" %> to send me an email.</p>
+
   </div>
 
   <div class="projects">
-    <p>List of my projects</p>
+    <h3>Projects</h3>
+    <div class="line"></div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12" id="piccolumn">
+          <!-- <a href="www.thesoutherndev.com"><img src="assets/devphoto.jpeg"></a> -->
+          <p>You're looking at it! I built this application using HTML, CSS, Javascript, and Bootstrap. It took only a few days and was my first project since graduation from coding bootcamp.</p>
+        </div>
+        <div class="col-lg-6 col-sm-12" id="piccolumn">
+          <%= image_tag 'onguardphoto.jpeg' %>
+          <p>This project was built during my last few weeks of Le Wagon's bootcamp. It is a Ruby on Rails project with HTML, CSS, Javascript, Google Maps API, Twillio integration, and Facebook Messenger Chatbot integration.</p>
+        </div>
+      </div>
   </div>
-
   <div class="contact">
     <p>Contact form, social media icons and insta integration</p>
   </div>
