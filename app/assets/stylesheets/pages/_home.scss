@@ -19,6 +19,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 700px) {
+    background-position: center;
+  }
 }
 .banner h1 {
   font-size: 50px;
@@ -200,6 +203,9 @@
   img {
     width: 100%;
     margin: auto;
+    @media (max-width: 1199px) {
+      width: 80%;
+    }
   }
 }
 
@@ -222,6 +228,10 @@
   transition: .5s ease;
   background-color: #346182;
   width: 100%;
+  @media (max-width: 1199px) {
+    width: 80%;
+    margin: auto;
+  }
   // margin: auto;
   a {
     font-size: 2vw;
@@ -306,6 +316,10 @@
   @media (max-width: 1199px) {
     padding-top: 30px;
     padding-bottom: 0px;
+    margin-top: -110px;
+  }
+  @media (max-width: 768px) {
+    margin-top: -150px;
   }
 }
 .start {
@@ -346,6 +360,9 @@
   h3 {
     text-align: center;
     padding-top: 100px;
+    @media (max-width: 800px) {
+      padding-top: 150px;
+    }
     margin-top: 80px;
     color: white;
     font-weight: bolder;
